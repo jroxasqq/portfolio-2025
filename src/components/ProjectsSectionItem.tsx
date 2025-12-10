@@ -13,7 +13,7 @@ interface ContentItemProps {
   color: string;
 }
 
-const ProjectsContentItem = ({ title, description, icon, link, color }: ContentItemProps) => {
+const ProjectsSectionItem = ({ title, description, icon, link, color }: ContentItemProps) => {
   const [isHovering, setIsHovering] = useState(false);
 
   const router = useRouter();
@@ -37,4 +37,4 @@ const ProjectsContentItem = ({ title, description, icon, link, color }: ContentI
   );
 };
 
-export default ProjectsContentItem;
+export default ProjectsSectionItem;
