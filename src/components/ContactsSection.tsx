@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ContactsSection = () => {
   return (
-    <div className="h-[50%] w-screen pt-20 justify-center content-center gap-30 flex flex-col lg:flex-row">
+    <div className="h-[50%] w-screen pt-20 justify-center content-center gap-30 flex flex-col md:flex-row">
       <p className="w-[40vw] text-5xl justify-top content-top">
         I believe great design and solid code deserve real care. I combine art, design, and software
         to create tailored experiences that feel intuitive and enjoyable.

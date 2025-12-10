@@ -7,7 +7,7 @@ const AboutMeSection = () => {
       <div className="h-screen w-screen justify-evenly content-center flex">
         <div className="content-center">
           <Image
-            className="h-100 w-100 invisible lg:visible"
+            className="aspect-square invisible md:visible"
             src={geometricImage}
             alt="image of geometric object"
           />
@@ -38,7 +38,7 @@ const AboutMeSection = () => {
         </div>
         <div className="content-center">
           <Image
-            className="h-100 w-100 invisible lg:visible"
+            className="aspect-square invisible md:visible"
             src={geometricImage}
             alt="image of geometric object"
           />
