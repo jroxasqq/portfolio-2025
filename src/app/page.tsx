@@ -10,6 +10,7 @@ export default function Home() {
       <AboutMeSection />
       <ProjectsSection />
       <ContactsSection />
+      <p className="text-xl text-black/30 py-10">© 2025 Justin Roxas. All rights reserved.</p>
     </div>
   );
 }
