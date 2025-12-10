@@ -1,11 +1,15 @@
 import Header from "@/components/Header";
-import WelcomeContent from "@/components/WelcomeContent";
+import AboutMeSection from "../components/AboutMeSection";
+import ProjectsSection from "../components/ProjectsSection";
+import ContactsSection from "../components/ContactsSection";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gray-100 items-center flex flex-col">
+    <div className="bg-[#F8EDE7] p-0 items-center flex flex-col">
       <Header />
-      <WelcomeContent />
+      <AboutMeSection />
+      <ProjectsSection />
+      <ContactsSection />
     </div>
   );
 }
